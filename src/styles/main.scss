@@ -1,7 +1,23 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "header";
+@import "nav";
+@import "extention";
+@import "slider";
+@import "preloader";
+@import "store";
+@import "promo";
 
 body {
   background: $c-gray;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Courier New", Courier, monospace;
+}
+
+h4,
+p {
+  margin: 0;
+  padding: 0;
 }

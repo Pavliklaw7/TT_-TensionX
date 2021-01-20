@@ -4,10 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    >
+    </script>
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <header class="header">
+      <nav class="nav header__nav">
+        <button
+          type="button"
+          id="extention"
+          class="extention nav__button"
+        >
+        </button>
+        <div class="slider extention__slider">
+          <div class="preloader"></div>
+          <div class="slider__inner first-slide">
+            <div class="slider__item">
+              <div class="slider__header">
+                <h4 class="slider__title">Amazon.com</h4>
+              </div>
+              <div class="slider__content">
+                <p class="slider__text">This website appears to have no deals</p>
+              </div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__header">
+                <h4 class="slider__title">Store</h4>
+              </div>
+              <div class="store slider__content">
+                <div class="store__item">
+                  <img
+                    class="store__image"
+                    src="./images/app-store.svg"
+                    alt="store icon"
+                  >
+                  <a class="store__link" href="#">Visit store</a>
+                </div>
+                <div class="store__item">
+                  <img
+                    class="store__image"
+                    src="./images/app-store.svg"
+                    alt="store icon"
+                  >
+                  <a class="store__link" href="#">Visit store</a>
+                </div>
+                <div class="store__item">
+                  <img
+                    class="store__image"
+                    src="./images/app-store.svg"
+                    alt="store icon"
+                  >
+                  <a class="store__link" href="#">Visit store</a>
+                </div>
+                <div class="store__item">
+                  <img
+                    class="store__image"
+                    src="./images/app-store.svg"
+                    alt=""
+                  >
+                  <a class="store__link" href="#">Visit store</a>
+                </div>
+                <div class="store__item">
+                  <img
+                    class="store__image"
+                    src="./images/app-store.svg"
+                    alt=""
+                  >
+                  <a class="store__link" href="#">Visit store</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__header">
+                <h4 class="slider__title">New Coupons</h4>
+              </div>
+              <div class="slider__content">
+                <div class="promo">
+                  <p class="promo__text">Found the deals we don`t have?</p>
+                  <a href="#" class="promo__link">Suggest new coupons</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider__controls">
+            <input
+              type="radio"
+              id="firstSlideBtn"
+              class="slider__controls-item"
+              checked
+              name="set-slide"
+            >
+            <i class="fas fa-home slider__controls-icon"></i>
+            <input
+              type="radio"
+              id="secondSlideBtn"
+              class="slider__controls-item"
+              name="set-slide"
+            >
+            <i class="fas fa-store slider__controls-icon"></i>
+            <input
+              type="radio"
+              id="thirdSlideBtn"
+              class="slider__controls-item"
+              name="set-slide"
+            >
+            <i class="fas fa-cart-plus slider__controls-icon"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script src="https://kit.fontawesome.com/8136b79ed3.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

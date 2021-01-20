@@ -28,12 +28,11 @@
   "spec-char-escape": true,
   "tag-bans": [
     "b",
-    "i",
     "u",
     "center",
     "style",
     "marquee",
-    "font",
+    "font", 
     "s"
   ],
   "tag-name-lowercase": true,

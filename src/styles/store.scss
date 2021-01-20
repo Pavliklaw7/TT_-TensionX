@@ -1,0 +1,29 @@
+.store {
+  overflow: scroll;
+
+  &__item {
+    display: flex;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+  }
+
+  &__image {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  &__link {
+    display: block;
+    height: fit-content;
+    padding: 0.5vw;
+    font-size: 1vw;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #000;
+  }
+}

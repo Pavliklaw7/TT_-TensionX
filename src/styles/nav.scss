@@ -1,0 +1,33 @@
+.nav {
+  &__item {
+    background-image: url(../images/percent.svg);
+  }
+
+  &__button {
+    width: 2.5vw;
+    height: 2.5vw;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+
+    @media (max-width: 1500px) {
+      width: 3vw;
+      height: 3vw;
+    }
+
+    @media (max-width: 1000px) {
+      width: 3.5vw;
+      height: 3.5vw;
+    }
+
+    @media (max-width: 600px) {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

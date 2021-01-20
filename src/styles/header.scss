@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fff;
+  padding: 1vw 10vw;
+
+  &__nav {
+    position: relative;
+  }
+}
