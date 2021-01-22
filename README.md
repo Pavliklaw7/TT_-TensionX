@@ -1,4 +1,7 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+UI for chrome extension (Test Task for TensionX)
+
+Tech stack: HTML5, SASS, JS (svg filling, button and preloader displaying), BEM methodology.
+
+Made by using CSS Flexbox (tablets, laptops, high screens).
+
+Click the [LINK](https://pavliklaw7.github.io/TT__TensionX/) to see demo.
